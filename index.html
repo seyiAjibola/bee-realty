@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BEE Realty Group | Luxury Homes, Land & Global Property Investments</title>
+  <meta name="description" content="BEE Realty Group — Premier real estate brokerage & international property advisory in Lekki Lagos, Abuja, Dubai, Turkey, and North Cyprus." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            obsidian: '#141210',
+            charcoal: '#1E1B18',
+            champagne: '#FAF7F2',
+            sand: '#F2ECE1',
+            amberlux: '#C87D16',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .editorial-shadow {
+      box-shadow: 0 24px 60px -15px rgba(20, 18, 16, 0.12), 0 4px 16px -4px rgba(20, 18, 16, 0.05);
+    }
+    .card-lift {
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+    }
+    .card-lift:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 28px 55px -12px rgba(20, 18, 16, 0.16);
+    }
+  </style>
+</head>
+<body class="bg-champagne text-obsidian font-sans antialiased selection:bg-amber-600 selection:text-white">
+
+  <!-- Top Announcement Strip -->
+  <div class="bg-obsidian text-stone-300 text-xs py-2.5 px-4 border-b border-stone-800">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-4">
+        <span class="inline-flex items-center gap-1.5 text-amber-400 font-semibold">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+          Global Real Estate Advisory
+        </span>
+        <span class="hidden sm:inline text-stone-400">Lagos • Abuja • Dubai • North Cyprus • Turkey</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+2347062227745" class="hover:text-amber-400 transition">+234 706 222 7745</a>
+        <span class="text-stone-600">|</span>
+        <a href="mailto:beerealtygroup6@gmail.com" class="hover:text-amber-400 transition">beerealtygroup6@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Editorial Glass Navigation -->
+  <header class="sticky top-0 z-50 bg-champagne/90 backdrop-blur-md border-b border-stone-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center">
+        <img src="assets/logo.svg" alt="BEE Realty Group Logo" class="h-12 w-auto" />
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-stone-700">
+        <a href="#portfolio" class="hover:text-amber-700 transition">Global Portfolio</a>
+        <a href="#destinations" class="hover:text-amber-700 transition">Destinations</a>
+        <a href="#advisory" class="hover:text-amber-700 transition">Why BEE Realty</a>
+        <a href="#contact" class="hover:text-amber-700 transition">Lekki Office</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/2347062227745?text=Hello%20BEE%20Realty%20Group,%20I%20would%20like%20to%20request%20your%20property%20catalogue."
+           target="_blank"
+           class="bg-obsidian hover:bg-amber-700 text-white text-xs sm:text-sm font-semibold px-5 py-3 rounded-full transition flex items-center gap-2 shadow-sm">
+          <span>Book Private Consultation</span>
+          <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Asymmetric Split Luxury Hero -->
+  <section class="relative overflow-hidden pt-10 pb-20 lg:pt-16 lg:pb-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <!-- Left Editorial Copy -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-600/25 text-amber-900 text-xs font-bold tracking-wider uppercase">
+            <span>Verified Homes • Titled Land • Global Assets</span>
+          </div>
+
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-obsidian leading-[1.08] tracking-tight">
+            Acquire Exceptional Real Estate Across <span class="italic text-amber-700">Lagos &amp; Global</span> Markets.
+          </h1>
+
+          <p class="text-stone-600 text-base sm:text-lg leading-relaxed max-w-xl">
+            Led by Blessing Emeafor, BEE Realty Group connects discerning homeowners and diaspora investors with high-appreciation properties in <strong>Lekki, Abuja, Dubai, Turkey, and North Cyprus</strong>.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#portfolio" class="bg-amber-700 hover:bg-amber-800 text-white font-semibold px-7 py-4 rounded-full transition shadow-lg shadow-amber-900/20 text-sm">
+              Explore Curated Properties
+            </a>
+            <a href="https://wa.me/2347062227745?text=Hello%20BEE%20Realty%20Group,%20I%20want%20to%20schedule%20a%20virtual%20or%20physical%20inspection."
+               target="_blank"
+               class="bg-white hover:bg-stone-100 text-obsidian border border-stone-300 font-semibold px-7 py-4 rounded-full transition text-sm">
+              Schedule Inspection
+            </a>
+          </div>
+
+          <!-- Trust Metrics Strip -->
+          <div class="grid grid-cols-3 gap-6 pt-6 border-t border-stone-200/90 max-w-lg">
+            <div>
+              <p class="font-serif text-3xl font-bold text-obsidian">5+</p>
+              <p class="text-xs text-stone-500 font-medium mt-0.5">Global Markets</p>
+            </div>
+            <div>
+              <p class="font-serif text-3xl font-bold text-obsidian">100%</p>
+              <p class="text-xs text-stone-500 font-medium mt-0.5">Verified Titles</p>
+            </div>
+            <div>
+              <p class="font-serif text-3xl font-bold text-obsidian">24/7</p>
+              <p class="text-xs text-stone-500 font-medium mt-0.5">Diaspora Concierge</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Architectural Showcase Card -->
+        <div class="lg:col-span-6 relative">
+          <div class="relative rounded-3xl overflow-hidden editorial-shadow border border-stone-300/60 bg-obsidian">
+            <img src="assets/hero-global.svg" alt="BEE Realty Luxury Waterfront Architecture" class="w-full h-[430px] sm:h-[490px] object-cover" />
+            <!-- Floating Glass Market Badge -->
+            <div class="absolute bottom-5 left-5 right-5 bg-obsidian/85 backdrop-blur-md border border-amber-500/30 rounded-2xl p-4 sm:p-5 text-white flex flex-wrap items-center justify-between gap-4">
+              <div>
+                <p class="text-[11px] uppercase tracking-widest text-amber-400 font-bold">Featured Cross-Border Advisory</p>
+                <p class="font-serif text-xl font-bold mt-0.5">Lekki Waterfront &amp; Dubai Marina Portfolios</p>
+              </div>
+              <a href="#portfolio" class="bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold px-4 py-2.5 rounded-full transition">
+                View Listings
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Country / Region Destination Pills -->
+  <section id="destinations" class="bg-sand border-y border-stone-200/80 py-8 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-xs font-bold uppercase tracking-widest text-stone-500">Filter by Destination:</p>
+      <div class="flex flex-wrap justify-center gap-2.5" id="country-pills">
+        <button onclick="quickCountry('ALL')" class="country-pill active bg-obsidian text-white text-xs font-semibold px-4 py-2 rounded-full transition">All Markets</button>
+        <button onclick="quickCountry('Nigeria')" class="country-pill bg-white hover:bg-stone-100 text-stone-700 border border-stone-300 text-xs font-semibold px-4 py-2 rounded-full transition">Nigeria (Lagos &amp; Abuja)</button>
+        <button onclick="quickCountry('Dubai')" class="country-pill bg-white hover:bg-stone-100 text-stone-700 border border-stone-300 text-xs font-semibold px-4 py-2 rounded-full transition">Dubai, UAE</button>
+        <button onclick="quickCountry('North Cyprus')" class="country-pill bg-white hover:bg-stone-100 text-stone-700 border border-stone-300 text-xs font-semibold px-4 py-2 rounded-full transition">North Cyprus</button>
+        <button onclick="quickCountry('Turkey')" class="country-pill bg-white hover:bg-stone-100 text-stone-700 border border-stone-300 text-xs font-semibold px-4 py-2 rounded-full transition">Istanbul, Turkey</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Portfolio & Multi-Filter Console -->
+  <section id="portfolio" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-amber-800">Live Inventory</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-obsidian mt-1">Curated Homes, Land &amp; Global Developments</h2>
+      </div>
+      <p id="results-counter" class="text-sm text-stone-500 font-medium">Showing all verified properties</p>
+    </div>
+
+    <!-- 4-Column Search & Filter Bar -->
+    <div class="bg-white rounded-2xl p-4 sm:p-6 editorial-shadow border border-stone-200/90 mb-12">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Keyword / Location -->
+        <div>
+          <label for="search-input" class="block text-[11px] font-bold uppercase tracking-wider text-stone-500 mb-1.5">Location or Keyword</label>
+          <input id="search-input" type="text" placeholder="e.g. Lekki, Dubai, Duplex, C of O..."
+                 class="w-full bg-champagne border border-stone-300 rounded-xl px-4 py-2.5 text-sm text-obsidian focus:outline-none focus:border-amber-700" />
+        </div>
+
+        <!-- Country / Region -->
+        <div>
+          <label for="country-filter" class="block text-[11px] font-bold uppercase tracking-wider text-stone-500 mb-1.5">Country / Market</label>
+          <select id="country-filter" class="w-full bg-champagne border border-stone-300 rounded-xl px-4 py-2.5 text-sm text-obsidian focus:outline-none focus:border-amber-700">
+            <option value="ALL">All Countries</option>
+            <option value="Nigeria">Nigeria (Lagos / Abuja)</option>
+            <option value="Dubai">Dubai, UAE</option>
+            <option value="North Cyprus">North Cyprus</option>
+            <option value="Turkey">Turkey</option>
+          </select>
+        </div>
+
+        <!-- Property Category -->
+        <div>
+          <label for="type-filter" class="block text-[11px] font-bold uppercase tracking-wider text-stone-500 mb-1.5">Property Type</label>
+          <select id="type-filter" class="w-full bg-champagne border border-stone-300 rounded-xl px-4 py-2.5 text-sm text-obsidian focus:outline-none focus:border-amber-700">
+            <option value="ALL">All Categories</option>
+            <option value="For Sale">Luxury Homes (For Sale)</option>
+            <option value="Titled Land">Titled Land &amp; Plots</option>
+            <option value="Short-Let">Short-Let &amp; Rental</option>
+            <option value="Off-Plan">International Off-Plan</option>
+          </select>
+        </div>
+
+        <!-- Availability / Reset -->
+        <div class="flex items-end gap-2">
+          <div class="flex-1">
+            <label for="status-filter" class="block text-[11px] font-bold uppercase tracking-wider text-stone-500 mb-1.5">Status</label>
+            <select id="status-filter" class="w-full bg-champagne border border-stone-300 rounded-xl px-4 py-2.5 text-sm text-obsidian focus:outline-none focus:border-amber-700">
+              <option value="ALL">All Statuses</option>
+              <option value="Available">Available Now</option>
+              <option value="Sold">Sold Out</option>
+            </select>
+          </div>
+          <button onclick="resetFilters()" title="Reset Filters"
+                  class="bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold text-xs px-4 py-3 rounded-xl border border-stone-300 transition">
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Property Grid -->
+    <div id="listings-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Populated dynamically via app.js -->
+    </div>
+  </section>
+
+  <!-- Why BEE Realty / Advisory Pillars -->
+  <section id="advisory" class="bg-obsidian text-white py-20 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="max-w-2xl mb-14">
+        <span class="text-xs font-bold uppercase tracking-widest text-amber-400">The BEE Realty Standard</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mt-2 leading-tight">
+          Transparent Property Advisory Built for Peace of Mind.
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-charcoal border border-stone-800 rounded-2xl p-8">
+          <div class="w-11 h-11 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 font-serif text-xl font-bold mb-5">01</div>
+          <h3 class="font-serif text-2xl font-bold mb-3">Strict Title Due Diligence</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">
+            Every residential development and land parcel in Lekki, Ibeju-Lekki, and Abuja is vetted for Governor's Consent, C of O, or Gazette documentation before listing.
+          </p>
+        </div>
+
+        <div class="bg-charcoal border border-stone-800 rounded-2xl p-8">
+          <div class="w-11 h-11 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 font-serif text-xl font-bold mb-5">02</div>
+          <h3 class="font-serif text-2xl font-bold mb-3">Cross-Border Portfolio Access</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">
+            Diversify your real estate wealth into high-yield rental apartments and residency-eligible developments in Dubai, Istanbul, and North Cyprus with full transaction support.
+          </p>
+        </div>
+
+        <div class="bg-charcoal border border-stone-800 rounded-2xl p-8">
+          <div class="w-11 h-11 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 font-serif text-xl font-bold mb-5">03</div>
+          <h3 class="font-serif text-2xl font-bold mb-3">Diaspora Virtual Inspections</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">
+            Buying from abroad? Our Lekki team conducts live video walkthroughs, drone site updates, and verified allocation handovers from start to finish.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lekki Office & Direct Contact Section -->
+  <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="bg-white rounded-3xl editorial-shadow border border-stone-200 overflow-hidden grid lg:grid-cols-12">
+      <div class="lg:col-span-7 p-8 sm:p-12 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-800">Visit or Connect</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-obsidian mt-2 mb-4">Speak With Our Lekki Advisory Desk</h2>
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed mb-8">
+            Whether you are acquiring a family residence in Lekki, investing in titled land, or exploring Dubai and North Cyprus properties, our advisors are ready to assist.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-6 text-sm">
+            <div class="p-4 rounded-2xl bg-champagne border border-stone-200">
+              <p class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1">Head Office</p>
+              <p class="font-semibold text-obsidian">9 Ugochukwu Duru Street, Alpha Beach Off New Road, Lekki-Epe Expressway, Lagos</p>
+            </div>
+            <div class="p-4 rounded-2xl bg-champagne border border-stone-200">
+              <p class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1">Direct Line &amp; Email</p>
+              <p class="font-semibold text-obsidian">+234 706 222 7745</p>
+              <p class="text-stone-600 mt-0.5">beerealtygroup6@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-8 flex flex-wrap gap-4">
+          <a href="https://wa.me/2347062227745?text=Hello%20BEE%20Realty%20Group,%20I%20would%20like%20to%20speak%20with%20an%20advisor."
+             target="_blank"
+             class="bg-obsidian hover:bg-amber-700 text-white font-semibold text-sm px-7 py-4 rounded-full transition">
+            Chat on WhatsApp Now
+          </a>
+          <a href="https://www.instagram.com/beerealtygrp/" target="_blank"
+             class="bg-champagne hover:bg-stone-200 text-obsidian border border-stone-300 font-semibold text-sm px-6 py-4 rounded-full transition">
+            Follow @beerealtygrp
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 bg-obsidian text-white p-8 sm:p-12 flex flex-col justify-between relative overflow-hidden">
+        <div>
+          <img src="assets/logo-dark.svg" alt="BEE Realty Group" class="h-12 w-auto mb-8" />
+          <blockquote class="font-serif italic text-2xl text-stone-200 leading-relaxed">
+            "Real estate remains the surest foundation for generational wealth—whether in the heart of Lagos or across international shores."
+          </blockquote>
+          <p class="text-amber-400 font-semibold text-sm mt-4">— Blessing Emeafor, Founder &amp; Lead Advisor</p>
+        </div>
+
+        <div class="pt-8 border-t border-stone-800 text-xs text-stone-400 space-y-1">
+          <p>Instagram: @beerealtygrp</p>
+          <p>Markets: Nigeria • UAE • Turkey • North Cyprus</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Corporate Footer -->
+  <footer class="bg-obsidian text-stone-400 text-xs py-10 px-4 border-t border-stone-800">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© 2026 BEE Realty Group. All rights reserved. 9 Ugochukwu Duru Street, Alpha Beach Off New Road, Lekki, Lagos.</p>
+      <div class="flex items-center gap-6">
+        <a href="#portfolio" class="hover:text-amber-400 transition">Properties</a>
+        <a href="#advisory" class="hover:text-amber-400 transition">Advisory</a>
+        <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
